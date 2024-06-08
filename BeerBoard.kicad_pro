@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -56,8 +56,15 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|117557953|102048966|4724cce2-1e35-4eb6-826f-8dd945906a97|a4a78b23-8f77-4ec9-b0d3-2579986c677d",
-        "clearance|118294879|95037586|79244a64-bcd4-42c0-8eca-9ee1ffb2e326|aab54890-703d-48a8-999e-5e67b2e230ae"
+        "clearance|118175000|102100000|4724cce2-1e35-4eb6-826f-8dd945906a97|a4a78b23-8f77-4ec9-b0d3-2579986c677d",
+        "clearance|118175000|95050000|79244a64-bcd4-42c0-8eca-9ee1ffb2e326|aab54890-703d-48a8-999e-5e67b2e230ae",
+        "solder_mask_bridge|118175000|102100000|a4a78b23-8f77-4ec9-b0d3-2579986c677d|4724cce2-1e35-4eb6-826f-8dd945906a97",
+        "solder_mask_bridge|118175000|95050000|aab54890-703d-48a8-999e-5e67b2e230ae|79244a64-bcd4-42c0-8eca-9ee1ffb2e326",
+        "unconnected_items|117800000|102100000|4724cce2-1e35-4eb6-826f-8dd945906a97|4f4ac39d-7537-45bc-8062-3cbe70c7023d",
+        "unconnected_items|117800000|95050000|79244a64-bcd4-42c0-8eca-9ee1ffb2e326|56e69341-fcd9-40e1-83be-03046c43b921",
+        "unconnected_items|117800000|97575000|56e69341-fcd9-40e1-83be-03046c43b921|15ddbec8-24b0-48eb-8c9d-bfcb25f54370",
+        "unconnected_items|117800000|99575000|15ddbec8-24b0-48eb-8c9d-bfcb25f54370|4724cce2-1e35-4eb6-826f-8dd945906a97",
+        "unconnected_items|120500000|96075000|919d999b-5322-4473-92aa-fd95d15bd7ba|79244a64-bcd4-42c0-8eca-9ee1ffb2e326"
       ],
       "meta": {
         "version": 2
@@ -138,36 +145,36 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 5,
-          "td_on_pad_in_zone": false,
+          "td_on_pad_in_zone": true,
           "td_onpadsmd": true,
           "td_onroundshapesonly": false,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onviapad": true
         }
       ],
       "teardrop_parameters": [
         {
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
-          "td_length_ratio": 0.5,
+          "td_length_ratio": 1.0,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
           "td_target_name": "td_round_shape",
           "td_width_to_size_filter_ratio": 0.9
         },
         {
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
-          "td_length_ratio": 0.5,
+          "td_length_ratio": 1.0,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
           "td_target_name": "td_rect_shape",
           "td_width_to_size_filter_ratio": 0.9
         },
         {
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
-          "td_length_ratio": 0.5,
+          "td_length_ratio": 1.0,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
           "td_target_name": "td_track_end",
