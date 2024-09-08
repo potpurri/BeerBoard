@@ -9,14 +9,13 @@ This board consists of **4 layers**, providing a robust platform for various app
 - Beer-shaped PCB design
 - STM32F030C6T6 microcontroller at its core
 - Blinking LEDs for visual effects
-- **4-layer PCB**
-- Available in both **multicolor** and **regular silkscreen** versions
+- 4-layer PCB
+- Available in both multicolor and regular silkscreen versions
 
 ## Images
 
 ### Assembled board
 ![LED blinking gif](imgs/V02/AssembledGIF.gif)
-![Assembled board front](imgs/V02/Assembled1.jpg)
 ![Assembled board back](imgs/V02/Assembled2.jpg)
 
 ### PCBs
