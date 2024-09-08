@@ -5,6 +5,8 @@
 
 This board consists of **4 layers**, providing a robust platform for various applications beyond its original purpose. It also includes **breakout pins for I2C, SPI, and USART**, offering versatile connectivity options for external devices and peripherals. Below are images showing the assebled board, different silkscreen options and 3D renderings of the BeerBoard.
 
+The board is soldered by me using a [Pinecil V2](https://wiki.pine64.org/wiki/Pinecil) by PINE64  and [MHP50](https://e-design.com.cn/en/Mini-Hot-Plate-Preheater-MHP50-PG9555615) by MiniWare.
+
 ## Features
 - Beer-shaped PCB design
 - STM32F030C6T6 microcontroller at its core
