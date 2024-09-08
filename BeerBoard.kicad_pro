@@ -56,15 +56,9 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|118175000|102100000|4724cce2-1e35-4eb6-826f-8dd945906a97|a4a78b23-8f77-4ec9-b0d3-2579986c677d",
-        "clearance|118175000|95050000|79244a64-bcd4-42c0-8eca-9ee1ffb2e326|aab54890-703d-48a8-999e-5e67b2e230ae",
-        "solder_mask_bridge|118175000|102100000|a4a78b23-8f77-4ec9-b0d3-2579986c677d|4724cce2-1e35-4eb6-826f-8dd945906a97",
-        "solder_mask_bridge|118175000|95050000|aab54890-703d-48a8-999e-5e67b2e230ae|79244a64-bcd4-42c0-8eca-9ee1ffb2e326",
-        "unconnected_items|117800000|102100000|4724cce2-1e35-4eb6-826f-8dd945906a97|4f4ac39d-7537-45bc-8062-3cbe70c7023d",
-        "unconnected_items|117800000|95050000|79244a64-bcd4-42c0-8eca-9ee1ffb2e326|56e69341-fcd9-40e1-83be-03046c43b921",
-        "unconnected_items|117800000|97575000|56e69341-fcd9-40e1-83be-03046c43b921|15ddbec8-24b0-48eb-8c9d-bfcb25f54370",
-        "unconnected_items|117800000|99575000|15ddbec8-24b0-48eb-8c9d-bfcb25f54370|4724cce2-1e35-4eb6-826f-8dd945906a97",
-        "unconnected_items|120500000|96075000|919d999b-5322-4473-92aa-fd95d15bd7ba|79244a64-bcd4-42c0-8eca-9ee1ffb2e326"
+        "unconnected_items|117950000|101875000|aac32b8d-7b47-41ea-8447-191beaaa607d|0e31bd04-d692-4f75-a822-bb216cd3aa9c",
+        "unconnected_items|121750000|101725000|0e31bd04-d692-4f75-a822-bb216cd3aa9c|c071b38c-a5c8-4b53-8d66-117f2e6d3642",
+        "unconnected_items|121750000|94275000|c071b38c-a5c8-4b53-8d66-117f2e6d3642|ba0cc603-ca71-46b4-ab1f-967a5078d441"
       ],
       "meta": {
         "version": 2
@@ -156,7 +150,7 @@
         {
           "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
-          "td_length_ratio": 1.0,
+          "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
           "td_target_name": "td_round_shape",
